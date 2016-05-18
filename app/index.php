@@ -1,4 +1,4 @@
 <?php
-echo "<p>database connection string: ".$_ENV["DBCONNECTION"]."</p>";
+echo "<p>database connection string: ".getenv('DBCONNECTION')."</p>";
  
 phpinfo();
